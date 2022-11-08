@@ -85,6 +85,12 @@
       </pluginRepositories>
       <id>kirona-development-team</id>
     </profile>
+    <profile>
+      <id>sonar</id>
+      <properties>
+        <sonar.host.url>https://ccq.svc.oneadvanced.com</sonar.host.url>
+      </properties>
+    </profile>      
   </profiles>
   <activeProfiles>
   <activeProfile>kirona-development-team</activeProfile>
