@@ -17,6 +17,16 @@
       <password>${env.MAVEN_PASSWORD}</password>  
       <id>snapshots</id>
     </server>
+    <server>
+      <username>${env.MAVEN_USERNAME}</username>
+      <password>${env.MAVEN_PASSWORD}</password>
+      <id>deployRelease</id>
+    </server>
+    <server>
+      <username>${env.MAVEN_USERNAME}</username>
+      <password>${env.MAVEN_PASSWORD}</password>  
+      <id>deploySnapshot</id>
+    </server>      
   </servers>
   <profiles>
     <profile>
